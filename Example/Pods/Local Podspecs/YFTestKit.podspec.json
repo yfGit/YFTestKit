@@ -1,6 +1,6 @@
 {
   "name": "YFTestKit",
-  "version": "1.0",
+  "version": "1.0.1",
   "summary": "Guide:",
   "description": "Guide for private pods",
   "homepage": "https://github.com/yfGit/",
@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "https://github.com/yfGit/YFTestKit.git",
-    "tag": "1.0"
+    "tag": "1.0.1"
   },
   "platforms": {
     "ios": "8.0"
