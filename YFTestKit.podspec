@@ -21,6 +21,6 @@ spec.frameworks = 'SystemConfiguration','CoreGraphics','CoreTelephony','Security
 spec.libraries  = 'iconv','sqlite3','stdc++','z'
 
 # 依赖pod
-spec.dependency   'AFNetworking', '~> 3.1.0'
+#spec.dependency   'AFNetworking'
 
 end

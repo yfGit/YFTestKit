@@ -36,10 +36,5 @@
     "sqlite3",
     "stdc++",
     "z"
-  ],
-  "dependencies": {
-    "AFNetworking": [
-      "~> 3.1.0"
-    ]
-  }
+  ]
 }
