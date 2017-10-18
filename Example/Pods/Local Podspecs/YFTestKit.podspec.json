@@ -1,7 +1,7 @@
 {
   "name": "YFTestKit",
   "version": "1.0",
-  "summary": "Guide for private pods :",
+  "summary": "Guide:",
   "description": "Guide for private pods",
   "homepage": "https://github.com/yfGit/",
   "license": {
@@ -18,5 +18,28 @@
   "platforms": {
     "ios": "8.0"
   },
-  "source_files": "YFTestKit/Classes/*.{h,m}"
+  "source_files": [
+    "YFTestKit/Classes/*.{h,m}",
+    "YFTestKit/Classes/ThirdParty/*.{h}"
+  ],
+  "vendored_libraries": "YFTestKit/Classes/ThirdParty/*.{a}",
+  "frameworks": [
+    "SystemConfiguration",
+    "CoreGraphics",
+    "CoreTelephony",
+    "Security",
+    "CoreLocation",
+    "JavaScriptCore"
+  ],
+  "libraries": [
+    "iconv",
+    "sqlite3",
+    "stdc++",
+    "z"
+  ],
+  "dependencies": {
+    "AFNetworking": [
+      "~> 3.1.0"
+    ]
+  }
 }
