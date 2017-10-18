@@ -1,0 +1,6 @@
+framework module YFTestKit {
+  umbrella header "YFTestKit-umbrella.h"
+
+  export *
+  module * { export * }
+}

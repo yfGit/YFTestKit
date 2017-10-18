@@ -7,6 +7,7 @@
 //
 
 #import "LBViewController.h"
+#import "NSString+LB_Filter.h"
 
 @interface LBViewController ()
 
